@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Banner Bank Example</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    body {
+      width: 585px;
+      height: 945px;
+      /* border: 1px solid #000; */
+      margin: auto;
+      font-size: 10px;
+      font-family: 'Roboto', sans-serif;
+      position: relative;
+    }
+
+    .bank-logo {
+      margin: 50px 0px 30px 40px;
+    }
+
+    .special-offer {
+      padding: 10px;
+      width: 186px;
+      height: 191px;
+      background-color: #E1E2E0;
+      border: 2px solid #ADAEAD;
+      border-radius: 5px;
+      float: right;
+      margin: 40px 30px 0px 0px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .red-text {
+      color: red;
+      font-weight: 800;
+    }
+
+    .blue-box {
+      width: 202px;
+      height: 41px;
+      background: #0D51A2;
+      position: absolute;
+      right: 22px;
+      color: #fff;
+      text-align: center;
+      font-weight: 800;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 1px;
+    }
+
+    .bullet-points {
+      font-size: 8px;
+      text-align: left;
+      padding: 8px 0px 10px 17px;
+      color: #595A59;
+      line-height: 1.8em;
+    }
+
+    .address {
+      margin-left: 100px;
+      font-style: normal;
+    }
+    .red-bar {
+      width: 90%;
+      margin-left: 30px;
+      height: 7px;
+      background-color: #ED1F31;
+      margin-top: 65px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .yellow-bar {
+      width: 90%;
+      margin-left: 20px;
+      height: 7px;
+      background-color: #FFD146;
+      margin-top: -12px;
+      position: absolute;
+    }
+
+    .main-section {
+      padding: 0px 0px 0px 40px;
+      width: 60%;
+      box-sizing: border-box;
+      float: left;
+    }
+
+    .blue-text {
+      font-size: 23px;
+      color: #0D51A2;
+      font-weight: 700;
+    }
+
+    .main-content{
+      font-size: 12px;
+      line-height: 1.6em;
+    }
+
+    .red-box {
+      height: 130px;
+      margin-top: -5px;
+      background-color: #ED1F31;
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      padding: 5px 20px;
+      font-weight: 600;
+      line-height: 1.4em;
+      border-radius: 1px;
+    }
+
+    .sidebar {
+      width: 32.8%;
+      float: right;
+      margin-right: 28px;
+    }
+
+    .main-bullet-points {
+      font-size: 11px;
+      text-align: left;
+      padding: 20px 25px 10px 25px;
+      color: #595A59;
+      font-weight: 600;
+      line-height: 1.5em;
+    }
+
+    .main-bullet-points li {
+      margin: 9px 0px;
+    }
+
+  </style>
+  <body contenteditable="true">
+  <header>
+    <!-- Bank Logo -->
+    <img class="bank-logo" src="images/bank logo.jpg" alt="Bank Logo Image">
+
+    <!-- Special Offer Box -->
+    <div class="special-offer">
+      <p class="red-text">USE YOUR SPECIAL OFFER CODE TO CLAIM YOUR LOW INTEREST RATE BY [DATE]</p>
+      <div class="blue-box">Your special offer code is [INSERT CODE]</div><br><br><br>
+      <ul class="bullet-points">
+        <li>Calling us at [INSERT PHONE NUMBER]</li>
+        <li>Visiting our web site at www.[INSERT URL]</li>
+        <li>Or visiting any [INSERT NAME OF BANK] branch</li>
+      </ul>
+    </div>
+
+    <!-- Address -->
+    <address class="address">
+      ELECTRONIC SERVICE REQUESTED<br><br>
+      Martha X. Mellen<br>
+      2665 Long Lake Rd.<br>
+      Roseville, MN 55113-1117<br>
+    </address>
+  </header>
+  <div class="red-bar"></div>
+  <div class="yellow-bar"></div>
+  <section class="main-section">
+    <p class="blue-text">You're so close to getting your new car, you can probably smell the leather!</p>
+    <p class="main-content">Dear [INSERT NAME]<br><br>
+    <strong>You're pre-qualified for a great limited time offer for a car loan.</strong><br><br>
+    With all the automobile sites on the internet these days, it’s never been easier to do the kind of research that’ll result in the exact kind of car you need. Trouble is, it’s no easier to finance that vehicle than it was 50 years ago. Well, except for people with great credit like yours.<br><br>
+    You see, with a credit score like yours, all it takes is a signature, and you’re ready to roll. So, what kind of car will it be, [INSERT NAME]? A brand-new one? Or maybe a classic? How about a sexy convertible?<br><br>
+    Remember, Bob, this is a limited-time offer… so step on the gas and give us a call, visit our web site, or go into your local branch. Your great rate is waiting for you, but it won’t wait for long. So why not contact us today!<br><br>
+    Sincerely,<br><br><br>
+    CEO of [INSERT BANK NAME]
+    </p>
+  </section>
+  <aside class="sidebar">
+    <div class="red-box">
+      <p>IT TAKES A GREAT CREDIT RATING LIKE YOURS TO GET AN OFFER LIKE THIS!</p>
+    </div>
+    <ul class="main-bullet-points">
+      <li>Extra low [X.XX]% rate. That is, if you respond by [DATE]</li>
+      <li>Because of your excellent credit, your rate is [INSERT RATE]% lower than our normal rate</li>
+      <li>No payments for 6 months</li>
+    </ul>
+    <img src="images/side-images.jpg" alt="road trip images">
+  </aside>
+  </body>
+</html>
